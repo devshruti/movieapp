@@ -1,0 +1,37 @@
+nav {
+  background-color: aliceblue;
+    padding: 10px 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar-container {
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    font-weight: 800;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  
